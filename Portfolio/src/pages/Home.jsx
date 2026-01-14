@@ -1,14 +1,16 @@
-import basketballSandbox from '/project images/basketball-sandbox.png'
-import mtkTutoring from '/project images/mtk-tutoring.png'
-import cookTube from '/project images/cooktube.png'
-import movieClub from '/project images/movie-club.png'
-import techBlog from '/project images/tech-blog.png'
-import employeeTracker from '/project images/employee-tracker.png'
-import eCommerceBackend from '/project images/e-commerce-backend.png'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import basketballSandbox from '../assets/images/basketball-sandbox.png'
+import mtkTutoring from '../assets/images/mtk-tutoring.png'
+import cookTube from '../assets/images/cooktube.png'
+import movieClub from '../assets/images/movie-club.png'
+import techBlog from '../assets/images/tech-blog.png'
+import employeeTracker from '../assets/images/employee-tracker.png'
+import eCommerceBackend from '../assets/images/e-commerce-backend.png'
 
 const githubLogo =   {
   name: 'GitHub',
-  href: '#',
+  href: 'https://github.com/TMW93',
   icon: (props) => (
     <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
       <path
@@ -80,6 +82,7 @@ const posts = [
 export default function Home () {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden bg-white py-24 sm:py-32 dark:bg-gray-900">
+      <Nav/>
       <div className="flex-1 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white">
@@ -124,6 +127,7 @@ export default function Home () {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
