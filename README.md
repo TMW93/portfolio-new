@@ -2,7 +2,7 @@
 
 ## Description
 This is my updated portfolio made in React.
-[Link](https://tims-react-portfolio.netlify.app/)
+[Website](portfolio-tim-new.netlify.app)
 
 ## Questions
 If you have any further inquiries then you can contact me at:
